@@ -1,0 +1,50 @@
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif, system-ui;
+}
+
+@media (max-width: 768px) {
+  html, body {
+  font-size: 0.85rem;
+  }
+}
+
+/* INDEX.HTML */
+
+.img-container {
+  width: 800px;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.landing-container a {
+  text-decoration: underline;
+  color: blue;
+}
+
+.landing-container a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+  .img-container {
+    width: 350px;
+  }
+
+}
